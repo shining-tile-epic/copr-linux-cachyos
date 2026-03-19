@@ -45,14 +45,14 @@
 # Valid values: 100, 250, 300, 500, 600, 750 and 1000
 # An invalid value will not fail and continue to use
 # 1000Hz tickrate
-%define _hz_tick 300
+%define _hz_tick 1000
 
 # Defines the x86_64 ISA level used
 # to compile the kernel
 # Valid values are 1-4
 # An invalid value will continue and use
 # x86_64_v3
-%define _x86_64_lvl 2
+%define _x86_64_lvl 3
 
 # Define variables for directory paths
 # to be used during packaging
